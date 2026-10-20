@@ -1,0 +1,5 @@
+kafka:
+  bootstrap-servers: ${BOOTSTRAP_SERVERS:localhost:9092}
+  topic: ${KAFKA_TOPIC:my-topic}
+  producer:
+    interval-ms: ${PRODUCER_INTERVAL_MS:500}

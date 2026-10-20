@@ -1,0 +1,18 @@
+# Gradle / Java
+**/build/
+**/.gradle/
+*.jar
+!kafka-practice2/gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+out/
+bin/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# локальное (не для ревью)
+.aiforopenide/
